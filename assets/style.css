@@ -133,3 +133,7 @@ input,textarea,select{width:100%;min-width:0;border:1px solid #667394;border-rad
 .hint{font-size:.85rem;color:var(--muted);margin:7px 0 0}.required{color:#ffc28c}.checkbox{display:flex;gap:12px;align-items:flex-start}.checkbox input{width:22px;height:22px;flex:none;margin-top:3px}.honeypot{display:none}.refcard p{margin-bottom:16px}.refcard .field{margin-bottom:0}.fieldgrid{display:grid;gap:0}form details .body{padding-top:14px}form button{min-height:48px}form [hidden]{display:none!important}
 @media(min-width:600px){.fieldgrid{grid-template-columns:1fr 1fr 1fr;gap:14px}}
 .plain{margin:14px 0 0 1.2em;padding:0;color:inherit}.plain li{margin:8px 0;line-height:1.55}
+
+.pair{display:grid;gap:28px;margin-top:36px;align-items:center}
+@media(min-width:860px){.pair{grid-template-columns:1fr 1fr;gap:48px}.pair .mapcard{margin-top:0}}
+.hero h1{max-width:900px}
