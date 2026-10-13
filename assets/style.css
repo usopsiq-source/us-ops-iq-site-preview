@@ -132,3 +132,4 @@ legend{font-size:1.2rem;font-weight:700;padding:0 8px;color:var(--ink)}
 input,textarea,select{width:100%;min-width:0;border:1px solid #667394;border-radius:8px;background:#0c1020;color:var(--ink);padding:12px;font:inherit;line-height:1.4}textarea{resize:vertical}input:focus,textarea:focus,select:focus{outline:2px solid var(--cyan);outline-offset:2px}
 .hint{font-size:.85rem;color:var(--muted);margin:7px 0 0}.required{color:#ffc28c}.checkbox{display:flex;gap:12px;align-items:flex-start}.checkbox input{width:22px;height:22px;flex:none;margin-top:3px}.honeypot{display:none}.refcard p{margin-bottom:16px}.refcard .field{margin-bottom:0}.fieldgrid{display:grid;gap:0}form details .body{padding-top:14px}form button{min-height:48px}form [hidden]{display:none!important}
 @media(min-width:600px){.fieldgrid{grid-template-columns:1fr 1fr 1fr;gap:14px}}
+.plain{margin:14px 0 0 1.2em;padding:0;color:inherit}.plain li{margin:8px 0;line-height:1.55}
